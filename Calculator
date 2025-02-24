@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h1>Calculator</h1>
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <p id="result4"></p>
+       
+        <script>
+            var a = 645;
+            var g = 855;
+            var sum = a + g;
+            var sum2 = a - g;
+            var sum3 = a * g;
+            var sum4 = a / g;     
+            document.getElementById("result1").innerHTML = "645 + 855= " + sum;
+            document.getElementById("result2").innerHTML = "645 - 855= " + sum2;
+            document.getElementById("result3").innerHTML = "645 * 855= " + sum3; document.getElementById("result4").innerHTML = "645 / 855= " + sum4;
+            </script>
+    </body>
+</html>
