@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>Sum of 2 numbers</h1>
+        <p id="result"></p>
+        <script>
+            var a = 645;
+            var g = 855;
+            var sum = a + g;     
+            document.getElementById("result").innerHTML = "The total sum is: " + sum;
+            </script>
+    </body>
+</html>
